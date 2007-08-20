@@ -37,6 +37,6 @@ rm -rf %{buildroot}
 %{_bindir}/editres
 %{_datadir}/X11/app-defaults/Editres
 %{_datadir}/X11/app-defaults/Editres-color
-%{_mandir}/man1/editres.1*.bz2
+%{_mandir}/man1/editres.1*
 
 
