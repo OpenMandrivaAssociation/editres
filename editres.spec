@@ -1,6 +1,6 @@
 Name:		editres
 Version:	1.0.3
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	A dynamic resource editor for X Toolkit applications 
 Group:		Development/X11
 Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
