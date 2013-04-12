@@ -1,5 +1,5 @@
---- geometry.c.str	2009-04-07 15:46:08.000000000 +0200
-+++ geometry.c	2009-04-07 15:46:41.000000000 +0200
+--- ./geometry.c.str	2009-04-07 15:46:08.000000000 +0200
++++ ./geometry.c	2009-04-07 15:46:41.000000000 +0200
 @@ -66,7 +66,7 @@
      Window win;
      int x, y;			/* location of event in root coordinates. */
@@ -18,8 +18,8 @@
  	SetMessage(global_screen_data.info_label, msg);
  	return;	
      }
---- svpopup.c.str	2009-04-07 15:46:54.000000000 +0200
-+++ svpopup.c	2009-04-07 15:47:11.000000000 +0200
+--- ./svpopup.c.str	2009-04-07 15:46:54.000000000 +0200
++++ ./svpopup.c	2009-04-07 15:47:11.000000000 +0200
 @@ -135,7 +135,7 @@
  	old = global_screen_data.res_text;
  	break;
@@ -29,8 +29,8 @@
  	SetMessage(global_screen_data.info_label, msg);
  	return;
      }
---- utils.c.str	2009-04-07 15:47:21.000000000 +0200
-+++ utils.c	2009-04-07 15:47:34.000000000 +0200
+--- ./utils.c.str	2009-04-07 15:47:21.000000000 +0200
++++ ./utils.c	2009-04-07 15:47:34.000000000 +0200
 @@ -546,7 +546,7 @@
  			get_event->info[i].widgets.num_widgets);
  
