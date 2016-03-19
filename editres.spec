@@ -1,7 +1,7 @@
 Summary:	A dynamic resource editor for X Toolkit applications 
 Name:		editres
 Version:	1.0.6
-Release:	9
+Release:	10
 Group:		Development/X11
 License:	MIT
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
