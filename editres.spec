@@ -1,11 +1,14 @@
+# We intentionally disable -Werror=format-security here.
+# It's safe because we're dealing with an array of constant strings.
+%define Werror_cflags %{nil}
+
 Summary:	A dynamic resource editor for X Toolkit applications 
 Name:		editres
-Version:	1.0.6
-Release:	11
+Version:	1.0.7
+Release:	1
 Group:		Development/X11
 License:	MIT
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
-Patch0:		editres-1.0.3-fix-str-fmt.patch
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xmu)
@@ -17,11 +20,10 @@ BuildRequires:	pkgconfig(xorg-macros)
 Editres is a dynamic resource editor for X Toolkit applications.
 
 %prep
-%setup -q
-%apply_patches
+%autosetup -p1
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
