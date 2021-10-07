@@ -5,7 +5,7 @@
 Summary:	A dynamic resource editor for X Toolkit applications 
 Name:		editres
 Version:	1.0.7
-Release:	2
+Release:	3
 Group:		Development/X11
 License:	MIT
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
@@ -24,10 +24,10 @@ Editres is a dynamic resource editor for X Toolkit applications.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/editres
