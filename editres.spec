@@ -4,11 +4,11 @@
 
 Summary:	A dynamic resource editor for X Toolkit applications 
 Name:		editres
-Version:	1.0.7
-Release:	3
+Version:	1.0.8
+Release:	1
 Group:		Development/X11
 License:	MIT
-Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xmu)
@@ -33,5 +33,5 @@ Editres is a dynamic resource editor for X Toolkit applications.
 %{_bindir}/editres
 %{_datadir}/X11/app-defaults/Editres
 %{_datadir}/X11/app-defaults/Editres-color
-%{_mandir}/man1/editres.1*
+%doc %{_mandir}/man1/editres.1*
 
